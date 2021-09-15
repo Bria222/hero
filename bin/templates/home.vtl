@@ -1,0 +1,25 @@
+<header class="masthead"style="background-image: url('images/flash.jpg'); height: 730px; background background-repeat: no-repeat;">
+
+<div class="homesquad">
+    <p>.</p>
+    <h1 style="font-family: 'Anton', sans-serif; margin-top:10%;color:white;font-size:50px;">SQUAD LIST!</h1>
+    <h4 style="color:green;">list of SuperHero Teams.</h4>
+
+
+
+    #if ($squadname)
+
+        <h3 style="font-family: 'Chakra Petch', sans-serif; margin-top:5%;">$squadname</h3>
+
+        <h4 style="font-family: 'Hi Melody', cursive;">$squadcause</h4>
+        <button class="bubbly-button" style="" ><a href="/herolist" class="button">View Heros!</a></button>
+        <hr style="width:50%;opacity:0.2">
+
+    #else
+      <hr style="width:50%;opacity:0.2">
+      NO SQUADS ADD NEW !
+    #end
+
+
+
+</div>
